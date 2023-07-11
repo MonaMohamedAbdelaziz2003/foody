@@ -45,7 +45,8 @@ if (window.location.pathname == "/index.html") {
         $(".owl-carousel").owlCarousel();
     });
 
-    $('.owl-carousel').owlCarousel({
+}
+$('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
         nav: true,
@@ -61,8 +62,7 @@ if (window.location.pathname == "/index.html") {
             }
         }
     })
-}
-/////////////////////menu
+    /////////////////////menu
 
 function xx() {
     var div1 = document.getElementById("div1_header");
